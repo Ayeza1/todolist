@@ -1,5 +1,4 @@
-const API = "http://127.0.0.1:5000/todos";
-
+const API = "https://ayeza.pythonanywhere.com/todos";
 function showLoading() {
   document.getElementById("loadingState").style.display = "block";
   document.getElementById("errorState").style.display = "none";
